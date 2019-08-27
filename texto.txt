@@ -1,0 +1,13 @@
+colores   bit.ly/colores-1
+
+BEM
+.testimonio    block
+.testimonio__autor   element
+.testimonio--autor   modifier
+
+ITCSS
+-generic     reset
+-base        framework, css, h*, p, ul, ol,a
+-components  css personalizado
+-utilities   css q cumplen una funcion puntual
+

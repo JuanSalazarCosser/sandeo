@@ -1,0 +1,10 @@
+@import url(base/bootstrap-4.3.1-dist/css/bootstrap.min.css);
+@import url(base/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css);
+@import url(base/bootstrap-4.3.1-dist/css/bootstrap-reboot.min.css);
+@import url(generic/reset.css);
+@import url(utilities/span.css);
+@import url(base/texto.css);
+@import url(components/estilos.css);
+@import url(utilities/fontawesome-free-5.9.0-web/css/all.min.css);
+@import url(utilities/fontawesome-free-5.9.0-web/css/fontawesome.min.css);
+@import url(utilities/fontawesome-free-5.9.0-web/css/v4-shims.min.css);

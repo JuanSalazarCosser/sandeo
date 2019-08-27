@@ -1,0 +1,323 @@
+.fondo-header{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #34495E;
+    text-align: center;
+    height: 60px;
+}
+.fondo-header a{
+    color: white;
+}
+.c-fondo-header__contacto{
+    font-size: 15px;
+}
+.c-fondo-header__redes a{
+    margin: 10px;
+}
+.c-seccion__fondo{
+    background: rgb(233, 232, 232);
+}
+.c-website__titulo{
+    text-align: start;
+    font-size: 3.8em;
+}
+.c-website__texto{
+    font-size: 1.5em;
+}
+.c-fondo-dark{
+    background-color: #34495E;
+
+}
+.somos__titulo,
+.servicios__titulo,
+.casos__titulo,
+.planes__titulo,
+.expertos__titulo,
+.testimonio__titulo,
+.blog__titulo{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.somos__descripcion,
+.servicios__descripcion,
+.casos__descripcion,
+.planes__descripcion,
+.expertos__descripcion,
+.testimonio__descripcion,
+.blog__descripcion{
+    text-align: center;
+}
+.somos__items,
+.servicios__items,
+.expertos__items,
+.blog__items{
+    padding: 35px;
+    background: #17a2b8;
+    color: white;
+}
+.somos__items--blue,
+.servicios__items--blue,
+.casos__items--blue,
+.expertos__items--blue,
+.blog__items--blue{
+    background: #34495E;
+}
+.somos__link,
+.servicios__link,
+.blog__link{
+    font-weight: bold;
+}
+.somos__subtexto,
+.somos__link,
+.servicios__subtexto,
+.servicios__link,
+.planes__link{
+    color: white;
+}
+.logros__icono,
+.logros__cifra,
+.logros__sub{
+    color: white;
+}
+.logros__icono{
+    font-size: 50px;
+}
+.logros__cifra{
+    font-weight: bold;
+    font-size: 30px;
+}
+.logros__sub{
+    font-weight: bold;
+}
+.casos__items--cyan{
+    background: #17a2b8;
+}
+.casos__textos h3{
+    text-transform: uppercase;
+    font-size: 1.25em;
+    color: dimgray;
+}
+.casos__textos,
+.planes__textos,
+.expertos__textos{
+    background: white;
+    border-bottom: 3px solid #17a2b8;
+}
+.casos__textos--blue,
+.planes__textos--blue,
+.expertos__textos--blue{
+    border-bottom: 3px solid #34495E;
+}
+.formulario{
+    height: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.formulario__texto,
+.formulario__subtexto{
+    color: white;
+}
+.formulario__texto{
+    font-size: 2em;
+}
+.formulario__subtexto{
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.formulario__campo{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    border-radius: 20px / 50%;
+}
+.formulario__boton{
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.planes__fondo{
+    background: #34495E;
+    color: white;
+}
+.planes__fondo--cyan{
+    background: #17a2b8;
+}
+.planes__cifra{
+    color: white;
+    font-weight: bold;
+    font-size: 2.8em;
+}
+.planes__textos p{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.planes__boton{
+    background: #34495E;
+}
+.expertos__imagenes,
+.testimonio__imagenes{   
+    border-radius: 50%;
+}
+.expertos__imagenes--blue{
+    width: 70%;
+}
+.expertos__imagenes--blanco{
+    width: 70%;
+    background-color: skyblue;
+}
+.expertos__textos{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.expertos__cargo{
+    color: #17a2b8;
+    font-weight: bold;
+}
+@media only screen and (min-width:766px) and (max-width:991px){
+    .expertos__items--media{
+        background: #17a2b8;
+    }
+    .expertos__textos--media{
+        border-bottom: 3px solid #17a2b8;
+    }
+}
+.testimonio__titulo{
+    color:white;
+}
+.testimonio__items{
+    background-color: #17a2b8;   
+}
+.testimonio__textos{
+    background: white;
+    border-right: 5px solid #17a2b8;
+    position: relative;
+}
+.testimonio__imagenes--blanco{
+    background-color: skyblue;
+}
+.testimonio__items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.testimonio__textos{
+    padding: 37px;
+}
+.testimonio__nombre{
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.testimonio__cargo{
+    text-transform: uppercase;
+    color: #17a2b8;
+    font-style: italic;
+    font-weight: bold;
+}
+.testimonio__icono{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: rgba(105, 105, 105, 0.411);
+    font-size: 90px;
+    padding: 10px;  
+    transform: scaleX(-1);
+}
+.testimonio__media{
+    display: flex;
+}
+ @media only screen and (max-width:767px){
+    .testimonio__media{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .testimonio__items{
+        height: 100%;
+        padding: 50px;
+    }
+    .testimonio__imagenes{
+        width: 50%;
+    }
+    .testimonio__textos{
+        border: none;
+        text-align: center;
+    }
+}
+.expertos__contenido,
+.testimonio__contenido,
+.blog__contenido{
+    padding-top: 60px;
+}
+.blog__icono--blue{
+    color: #34495E;
+}
+.blog__icono--cyan{
+    color: #17a2b8;
+}
+.blog__subtitulo{
+    font-size: 1.4em;
+}
+.blog__link{
+    color: #34495E;
+}
+.blog__link--cyan{
+    color: #17a2b8;
+}
+.footer__caja{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;
+}
+.footer__titulos{
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+.footer__titulos::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: white;
+    margin-top: 10px;
+}
+.footer__icono{
+    color: white;
+    border: 2px white solid;
+    padding: 10px;
+}
+.footer__icono--ancho{
+    width: 40px;
+    text-align: center;
+}
+.footer__white{
+    color: white;
+}
+.footer__formulario{
+    width: 290px;
+}
+.footer__formulario--height{
+    height: 45px;
+}
+.footer__boton{
+    background-color: rgb(29, 29, 41);
+    height: 45px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.footer__final{
+    border-top: 2px solid rgba(206, 202, 202, 0.774);
+    height: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+.footer__final p{
+    color: white;
+}
