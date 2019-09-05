@@ -3,6 +3,7 @@
 @import url(base/bootstrap-4.3.1-dist/css/bootstrap-reboot.min.css);
 @import url(generic/reset.css);
 @import url(utilities/span.css);
+@import url(utilities/animaciones.css);
 @import url(base/texto.css);
 @import url(components/estilos.css);
 @import url(utilities/fontawesome-free-5.9.0-web/css/all.min.css);

@@ -1,0 +1,28 @@
+.u-salida{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: salida;
+}
+@keyframes salida{
+    from{
+        opacity: 0;
+        transform: translate3d(0,-100%,0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
+.u-mostrar{
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-name: mostrar;
+}
+@keyframes mostrar{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
